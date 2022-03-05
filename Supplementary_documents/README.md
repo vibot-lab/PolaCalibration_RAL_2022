@@ -13,7 +13,8 @@ In this document, we demonstrate why the error of the AoLP estimator has a
 sine-like shape. This demonstration is auxiliary to the submitted manuscript and the
 explanation was not included in the main paper due to space restrictions.
 
-In this supplementary material, after finding the mathematical expression of this error, the estimator algorithm is tested with for four different lenses, showing that
+In this supplementary material, after finding the mathematical expression of this error, the
+estimator algorithm is tested with for two different lenses, showing that
 the each lens has an different effect in the AoLP estimation when considering the
 camera as ideal. Then, by doing least-squares optimization and RANSAC, we
 find the formula parameters that fits the measured data. The values obtained
