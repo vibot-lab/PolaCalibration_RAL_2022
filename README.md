@@ -24,7 +24,7 @@ demonstrations that for space reasons could not be included in the paper.
 Nevertheless, these explanations are not part of the paper. The main text stands
 by itself, but some mathematical demonstrations are not included in it since
 they are not part of the aim of the paper. These explanations are addressed
-for the readers that wants to know the exact details of some phenomenoms
+to the readers who want to know the exact details of some phenomenoms
 developed in our method.
 
 # Supplementary images <a name="supimgs"></a>
