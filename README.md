@@ -5,7 +5,7 @@ This repository contains the original implementation of the polimetric
 calibration paper **"A practical calibration method for RGB micro-grid**
 **polarimetric cameras"**, submitted to RA-L/IROS 2022.
 
-# [Code]()
+# [Code](Code/)
 In this folder, the paper implementation code is included. It consists of
 C++ code with the developed method, and some raw images to test its
 performance.
