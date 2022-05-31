@@ -13,15 +13,22 @@ performance.
 NOTE: The code will be provided after the reviewing process decision.
 
 # [Supplementary documents](Supplementary_documents/)
-In this folder, we detail the theoretical
-demonstration about the angle of polarization error which due to space reasons could not be included in the main paper.
+In this folder, we detail some points which due to space reasons, could
+not be included in the main paper:
+1. The theoretical demonstration about the angle of polarization error.
+2. The results of using a calibrated camera in real robotics applications.
+
 Nevertheless, these explanations are not part of the paper. The main text stands
-by itself. These explanations are addressed
-to the readers who want to know the additional details of the calibration modelling presented in the main paper.
+by itself. These explanations are addressed to the readers who want to
+know the additional details of the calibration modelling presented in the
+main paper.
 
 # [Supplementary images](Supplementary_images)
 In this folder, images that could not be included in the paper are attached.
 Since the RGB channels from the image are considered as three separated images,
-then there are three different calibration results per frame. We have presented the red channel results in the paper, while in this folder includes the analysis for the red, green and blue channels.
+then there are three different calibration results per frame. We have
+presented the red channel results in the paper, while in this folder includes
+the analysis for the red, green and blue channels.
 
-
+Additionally, two set of images have been added, which correspond to the high
+resolution version of the applications result images.

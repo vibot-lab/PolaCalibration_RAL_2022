@@ -7,6 +7,8 @@ missing channels results.
 # Table of Contents
 1. ### [Figure 5](#figure5)
 2. ### [Figure 6](#figure6)
+3. ### [Figure 7](#figure7)
+4. ### [Figure 8](#figure8)
 
 # Figure 5 <a name="figure5"></a>
 This figure corresponds to the improvements with respect to
@@ -69,3 +71,21 @@ the camera is calibrated, for all the color channels.
 
 The differences in the intensities intervals for each channels are expected
 since the used light is yellow, and not white.
+
+# Figure 7 <a name="figure7"></a>
+This image corresponds to the reconstructed surface of a paraboloid piece,
+by using the SfP method detailed in the paper **Linear depth estimation from an**
+**uncalibrated, monocular polarisation image**. These images corresponds to the
+high-resolution versions of the images included in the main paper.
+
+# Figure 8 <a name="figure8"></a>
+This image is not included in the paper, but in the supplementary material. It
+corresponds to the high-resolution version of the results obtained with the
+Depth from polarization method implemented in **P2D: a self-supervised method**
+**for depth estimation from polarimetry**. This set of four images contains:
+1. The color image captured with the RGB polarization camera
+2. The equivalent Grayscale image that we will give to the DNN to produce
+the disparity image.
+3. The disparity obtained when the camera is uncalibrated
+4. The disparity when the camera is calibrated.
+
