@@ -10,8 +10,6 @@ In this folder, the paper implementation code is included. It consists of
 C++ code with the developed method, and some raw images to test its
 performance.
 
-NOTE: The code will be provided after the reviewing process decision.
-
 # [Supplementary documents](Supplementary_documents/)
 In this folder, we detail some points which due to space reasons, could
 not be included in the main paper:

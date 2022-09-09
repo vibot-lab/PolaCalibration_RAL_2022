@@ -46,7 +46,7 @@ This software has been build for Ubuntu 18 and tested also on Ubuntu 20. The sof
 * CMake
 * make
 
-Once the dependencies installed, we download this code, and we place on the root directory of the [Code](Code/) folder,
+Once the dependencies installed, we download this code, and we place on the root directory of the [Code](./) folder,
 and we run these commands:
 ```bash
 mkdir build
