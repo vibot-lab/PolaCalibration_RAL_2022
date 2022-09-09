@@ -29,3 +29,15 @@ and a discussion about them are included in
 [Supplementary_material.pdf](Supplementary_material.pdf). The full resolution
 images can be found in the folder [Supplementary_images](../Supplementary_images).
 
+# Citation
+```TeX
+@ARTICLE{9834097,
+  author={Rodriguez, Joaquin and Lew-Yan-Voon, Lew and Martins, Renato and Morel, Olivier},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={A Practical Calibration Method for RGB Micro-Grid Polarimetric Cameras}, 
+  year={2022},
+  volume={7},
+  number={4},
+  pages={9921-9928},
+  doi={10.1109/LRA.2022.3192655}}
+```

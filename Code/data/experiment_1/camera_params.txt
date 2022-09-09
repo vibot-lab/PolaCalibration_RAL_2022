@@ -1,0 +1,4 @@
+Dist to plate: 20.5 cm
+F-number: 3
+Exp Time 20mS
+Lens: 8mm
