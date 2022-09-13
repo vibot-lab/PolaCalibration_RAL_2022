@@ -1,6 +1,6 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
-# PoliCalibration - Calibration of Polarization Cameras
+# PolaCalibration - Calibration of Polarization Cameras
 ## <b>A Practical Calibration Method for RGB Micro-Grid Polarimetric Cameras</b> <br> [[Paper arXiv]](https://arxiv.org/pdf/2208.13485.pdf) [[Code]](Code/) [[Supplem Material]](Supplementary_documents/)
 
 This repository contains the original implementation of the polimetric
@@ -36,7 +36,6 @@ If you find this code useful for your research, please cite the paper:
   pages={9921-9928},
   doi={10.1109/LRA.2022.3192655}}
 ```
-
 # [Code](Code/)
 In this folder, the paper implementation code is included. It consists of
 C++ code with the developed method, and some raw images to test its
