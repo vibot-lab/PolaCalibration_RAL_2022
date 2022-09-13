@@ -5,19 +5,6 @@ This repository contains the original implementation of the polimetric
 calibration paper **"A practical calibration method for RGB micro-grid**
 **polarimetric cameras"**, submitted to RA-L/IROS 2022.
 
-<style>
-table {
-    border-collapse: collapse;
-}
-table, th, td {
-   border: 1px solid black;
-}
-blockquote {
-    border-left: solid blue;
-    padding-left: 10px;
-}
-</style>
-
 <table>
   <tr align="center">
     <td><img src="images/00_Uncalibrated_Intensity.png" width=600></td>
