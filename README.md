@@ -1,9 +1,11 @@
-# PoliCalibration
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
+# PoliCalibration - Calibration of Polarization Cameras
+## <b>A Practical Calibration Method for RGB Micro-Grid Polarimetric Cameras</b> <br> [[Paper arXiv]](https://arxiv.org/pdf/2208.13485.pdf) [[Code]](Code/) [[Supplem Material]](Supplementary_documents/)
 
 This repository contains the original implementation of the polimetric
 calibration paper **"A practical calibration method for RGB micro-grid**
-**polarimetric cameras"**, submitted to RA-L/IROS 2022.
+**polarimetric cameras"**, submitted to RA-L 2022.
 
 <table>
   <tr align="center">
@@ -12,20 +14,19 @@ calibration paper **"A practical calibration method for RGB micro-grid**
     <td><img src="images/00_Calibrated_AoLP.png" width=600></td>
   </tr>
   <tr align="center">
-    <td>(a)</td>
-     <td>(b)</td>
-     <td>(c)</td>
+    <td>(a) Intensity image</td>
+     <td>(b) Uncalibrated AoLP</td>
+     <td>(c) Calibrated AoLP</td>
   </tr>
  </table>
 
-
-These images are the results of the calibration for the angle of linear polarization (AoLP). (a) RGB Intensity image. (b) Uncalibrated AoLP. (c) Calibrated AoLP.
+Our calibration approach finds the parameters of camera and lens to generate the super-pixel matrix, as shown in the results of the calibration for the angle of linear polarization (AoLP). (a) RGB Intensity image. (b) Uncalibrated AoLP. (c) Calibrated AoLP.
 The AoLP has been colored using the HSV color palette to allow the circularity of the colors (180 and 0 degrees should be represented with the same color).
 
-# Citation
+## Citation
 If you find this code useful for your research, please cite the paper:
 ```TeX
-@ARTICLE{9834097,
+@ARTICLE{rodriguez-ral2022,
   author={Rodriguez, Joaquin and Lew-Yan-Voon, Lew and Martins, Renato and Morel, Olivier},
   journal={IEEE Robotics and Automation Letters}, 
   title={A Practical Calibration Method for RGB Micro-Grid Polarimetric Cameras}, 
@@ -35,7 +36,6 @@ If you find this code useful for your research, please cite the paper:
   pages={9921-9928},
   doi={10.1109/LRA.2022.3192655}}
 ```
-
 
 # [Code](Code/)
 In this folder, the paper implementation code is included. It consists of
