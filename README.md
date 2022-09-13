@@ -5,6 +5,38 @@ This repository contains the original implementation of the polimetric
 calibration paper **"A practical calibration method for RGB micro-grid**
 **polarimetric cameras"**, submitted to RA-L/IROS 2022.
 
+<table>
+  <tr align="center">
+    <td><img src="images/00_Uncalibrated_Intensity.png" width=600></td>
+    <td><img src="images/00_Uncalibrated_AoLP.png" width=600></td>
+    <td><img src="images/00_Calibrated_AoLP.png" width=600></td>
+  </tr>
+  <tr align="center">
+    <td>(a)</td>
+     <td>(b)</td>
+     <td>(c)</td>
+  </tr>
+ </table>
+
+
+These images are the results of the calibration for the angle of linear polarization (AoLP). (a) RGB Intensity image. (b) Uncalibrated AoLP. (c) Calibrated AoLP.
+The AoLP has been colored using the HSV color palette to allow the circularity of the colors (180 and 0 degrees should be represented with the same color).
+
+# Citation
+If you find this code useful for your research, please cite the paper:
+```TeX
+@ARTICLE{9834097,
+  author={Rodriguez, Joaquin and Lew-Yan-Voon, Lew and Martins, Renato and Morel, Olivier},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={A Practical Calibration Method for RGB Micro-Grid Polarimetric Cameras}, 
+  year={2022},
+  volume={7},
+  number={4},
+  pages={9921-9928},
+  doi={10.1109/LRA.2022.3192655}}
+```
+
+
 # [Code](Code/)
 In this folder, the paper implementation code is included. It consists of
 C++ code with the developed method, and some raw images to test its
@@ -30,16 +62,3 @@ the analysis for the red, green and blue channels.
 
 Additionally, two set of images have been added, which correspond to the high
 resolution version of the applications result images.
-
-# Citation
-```TeX
-@ARTICLE{9834097,
-  author={Rodriguez, Joaquin and Lew-Yan-Voon, Lew and Martins, Renato and Morel, Olivier},
-  journal={IEEE Robotics and Automation Letters}, 
-  title={A Practical Calibration Method for RGB Micro-Grid Polarimetric Cameras}, 
-  year={2022},
-  volume={7},
-  number={4},
-  pages={9921-9928},
-  doi={10.1109/LRA.2022.3192655}}
-```
